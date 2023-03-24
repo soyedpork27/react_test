@@ -16,6 +16,8 @@ function Inputtest2(props) {
   userid: ''
  });
 
+
+
  // 비구조화 할당 방식을 통해 값을 추출한다.
  const {username, userid} = inputs;
 
@@ -27,6 +29,11 @@ function Inputtest2(props) {
    [name]:value // name키를 가진 값을 value로 설정한다.
   })
  }
+
+ // username = 1234 / userid = abcd
+ // 오브젝트 형식으로 가져오기 때문에 양쪽의 값을 못가져온다.
+ // inputs [username, userid] = [name]은 각각의 input 태그를 가져온다.
+ // name은 value = {name}의 name 변수, value는 value 그 자체 (1234)
 
  const onDataReset = () => {
   setInputs({
