@@ -1,0 +1,12 @@
+
+{
+    "bts" : [
+    {"id" : 1, "name" : "김남준", "age" : 30, "email" : "aa@naver.com", "img" : "/bts01.jpg"},
+    {"id" : 2, "name" : "김석진", "age" : 32, "email" : "bb@naver.com", "img" : "/bts02.jpg"},
+    {"id" : 3, "name" : "민윤기", "age" : 31, "email" : "cc@naver.com", "img" : "/bts03.jpg"},
+    {"id" : 4, "name" : "박지민", "age" : 29, "email" : "dd@naver.com", "img" : "/bts04.jpg"},
+    {"id" : 5, "name" : "김태형", "age" : 29, "email" : "ee@naver.com", "img" : "/bts05.jpg"},
+    {"id" : 6, "name" : "전정국", "age" : 27, "email" : "ff@naver.com", "img" : "/bts06.jpg"},
+    {"id" : 7, "name" : "정호석", "age" : 30, "email" : "gg@naver.com", "img" : "/bts07.jpg"}
+    ]
+}
