@@ -1,4 +1,4 @@
-// 지워선 안된다!
+// 지워선 안된다
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -10,7 +10,7 @@ import './index.css';
 import './Style01.css';
 
 
-import App from './0327/App';
+import App from './0409/App';
 
 
 

@@ -1,0 +1,39 @@
+.todo-item {
+  padding : 1rem;
+  display : flex;
+  align-items : center;
+  transition : 0.5s;
+  border-top : 1px solid #cfcfcf;
+}
+
+.todo-item:hover {
+  background-color : #e3fafc;
+}
+
+.todo-item:hover .remove {
+  opacity : 1;
+}
+
+.remove{
+  margin-right  : 1rem;
+  color : #e64980;
+  font-weight : 600;
+  opacity : 0;
+}
+
+.todo-text {
+  word-break : break-all; /* 줄넘김 없음*/
+}
+
+
+.checked {
+  color : #afb5bd;
+}
+
+.check-mark {
+  font-size : 1.5rem;
+  line-height : 1rem;
+  margin-left : 1.5rem;
+  color : #e64980;
+  font-weight : bold;
+}

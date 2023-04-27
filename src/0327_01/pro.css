@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+
+.flexable{
+  display : flex;
+}
+
+
+dt {
+  width : 128px;
+  font-size : 16px; 
+  font-weight : bold;
+}
+dd{
+  width : 418px;
+  color : #888;
+  font-size : 12px;
+}
+
+dd P {
+  color : #333;
+  font-size : 16px;
+}
+
+.gray {
+  color : #888;
+  font-weight : bold;
+}
+
+h2 {
+  font-size : 24px;
+}
+
+.price {
+  font-size : 28px;
+  font-weight : bold;
+}
+
+.purple {
+  color : #5f0080;
+  font-size : 14px;
+  font-weight : bold;
+}
+
+
+li {
+  border-bottom : 1px solid #ddd;
+  padding : 18px 0 17px 0;
+}
