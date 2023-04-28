@@ -1,6 +1,8 @@
 import React from 'react';
 import ProtoTypes from 'prop-types';
 
+import './css/movie.css';
+
 function Movie({key, id, poster, title, year, genres, summary}) {
 
 
@@ -8,25 +10,30 @@ function Movie({key, id, poster, title, year, genres, summary}) {
 
 
   return (
-    <article className='article'>
+    <article className='movie'>
       <img src={poster} alt={`${title} 이미지`} />
 
-      <div>
+      <div className='movie_data'>
 
-        <h3>{title}</h3>
+        <h3 className='movie_title'>{title}</h3>
 
-        <p>{year}</p>
+        <p className='year'>{year}</p>
 
         <dl>
-          <dt>영화 장르</dt>
+          <dt className='genres_title'>영화 장르</dt>
           <dd>
-            <ul>
-              <li>{genres}</li>
+            <ul className='movie_genres'>
+              {genres.map((genres, index) => {
+                return(
+                <li key={index} className="movie_genres_txt">
+                  {genres}
+                </li>
+              )})}
             </ul>
           </dd>
         </dl>
 
-        <p>{summary}</p>
+        <p>{summary.slice(0,230)}...</p>
 
       </div>
 

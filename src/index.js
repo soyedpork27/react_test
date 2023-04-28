@@ -11,6 +11,7 @@ import './Style01.css';
 
 
 import App from './0409/App';
+// import App from '../movie/src/App';
 
 
 
@@ -21,7 +22,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"></link>
+    {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"></link> */}
     <App />
   </>
 );
