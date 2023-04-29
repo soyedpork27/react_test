@@ -1,0 +1,8 @@
+{
+  "foods" : [
+  {"file" : "food1.jpg", "name" : "[명량핫도그] 명량이네 감자 핫도그", "price" : "33000원", "review" : "후기96"},
+  {"file" : "food2.jpg", "name" : "[명존쎄] 명태구이", "price" : "5900원", "review" : "후기 999"},
+  {"file" : "food3.jpg", "name" : "[명지애학교] 명란마요", "price" : "6000원", "review" : "후기 999"},
+  {"file" : "food4.jpg", "name" : "[명화당] 명이나물밥", "price" : "11900원", "review" : "후기 999"}
+  ]
+  }

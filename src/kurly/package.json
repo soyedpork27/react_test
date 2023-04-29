@@ -1,27 +1,14 @@
 {
-<<<<<<< HEAD
-  "name": "hyeok_react",
+  "name": "kurly",
   "version": "0.1.0",
   "private": true,
-=======
-  "name": "react02",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://soyedpork27.github.io/react_test",
->>>>>>> f5e0fa80686a608973eaaf74e6934f80e1fafe6e
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-=======
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0",
->>>>>>> f5e0fa80686a608973eaaf74e6934f80e1fafe6e
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -29,13 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
     "eject": "react-scripts eject"
-=======
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
->>>>>>> f5e0fa80686a608973eaaf74e6934f80e1fafe6e
   },
   "eslintConfig": {
     "extends": [

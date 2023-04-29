@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+.shoptitle {
+  font-size : 24px;
+  font-weight : bold;
+  text-align : center;
+  margin-top : 100px;
+}
+
+
+.flexable {
+  display : flex;
+  width : 62.5%;
+  margin : 50px auto;
+  flex-wrap : wrap;
+  justify-content : space-between;
+}
+
+figure {
+  width : 24%;
+  overflow : hidden;
+}
+
+figure img{
+  width : 100%;
+  /* height : 240px; */
+  /* object-fit: cover; */
+  display : block;
+  position : relative;
+  z-index : 1;
+  transition : .3s;
+}
+
+figure img:hover {
+  transform : scale(1.1);
+}
+
+figcaption {
+  padding : 16px;
+  box-sizing : border-box;
+  position : relative;
+  z-index : 2;
+  background-color: #fff;;
+}
+
+
+.name {
+  font-size : 16px;
+  line-height : 20px;
+  font-weight : bold;
+  margin-bottom : 16px;
+  color : #333;
+}
+
+.price {
+  font-size : 16px;
+  line-height : 18px;
+  font-weight : bold;
+  color : #333;
+  margin-bottom : 16px;
+}
+
+.review {
+  font-size : 12px;
+  line-height : 14px;
+  color : #999;
+}
+
+
+
+@media screen and (max-width :1900px ) and (min-width : 1700px) {
+  .flexable {
+    width : 70%;
+  }
+}
+
+@media screen and (max-width :1699px ) and (min-width : 1500px) {
+  .flexable {
+    width : 80%;
+  }
+}
+
+@media screen and (max-width :1499px ) and (min-width : 1320px) {
+  .flexable {
+    width : 90%;
+  }
+}
+
+@media screen and (max-width :1319px ) and (min-width : 1200px) {
+  .flexable {
+    width : 98%;
+  }
+}
+
+@media screen and (max-width :1199px ) and (min-width : 1025) {
+  .flexable {
+    width : 80%;
+  }
+  figure {
+    width : 45%;
+  }
+}
+
+

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.nav {
+  width : 100%;
+  margin-top : 50px;
+}
+
+label {
+  display : block;
+}
+
+.nav a {
+  text-decoration : none;
+  font-size : 16px;
+  color : #000;
+  text-align : center;
+  display : block;
+  padding : 15px 10px;
+  background-color : #FF8686;
+}
+
+.nav a:hover {
+  color: #FF8686;
+  background-color: #000;
+}
+
+#nav_rad01:checked ~ label[id=nav_rad01] a {
+  color: #FF8686;
+  background-color: #000;
+}
+
+#nav_rad02:checked ~ label[id=nav_rad02] a {
+  color: #FF8686;
+  background-color: #000;
+}
+
+#nav_rad03:checked ~ label[id=nav_rad03] a {
+  color: #FF8686;
+  background-color: #000;
+}
+#nav_rad04:checked ~ label[id=nav_rad04] a {
+  color: #FF8686;
+  background-color: #000;
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body{
+  padding : 50px ;
+}
+
+.success {
+  background-color : green;
+}
+
+.failure {
+  background-color : orangered;
+}
+

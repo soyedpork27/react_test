@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+li {
+  line-height : 28px;
+}
+
+li > p:first-child{
+  color : #999;
+  font-size : 16px;
+  font-weight : bold;
+}
+
+li > p:nth-child(2){
+  font-size : 18px;
+  font-weight : bold;
+}
+
+li > p:nth-child(3) {
+  font-size : 16px;
+  color : #333;
+  font-weight : bold;
+
+
+}
+
+li > p:last-child{
+  color : #f00;
+  font-size : 22px;
+  font-weight : bold;
+}
+
+
+
+
+

@@ -1,0 +1,10 @@
+완성1 : junchi86.github.io/max
+완성2 : https://canine89.github.io/movie_app_2020/#/
+----------------------------------------
+
+https://yts.mx/api/v2/list_movies.json
+https://yts.mx/api/v2/movie_details.json
+
+----------------------------------------
+yts-proxy.now.sh/list_movies.json
+yts-proxy.now.sh/movie_details.json 
